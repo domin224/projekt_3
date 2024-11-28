@@ -1,7 +1,7 @@
 
 # Czech 2017 Chamber of Deputies Election Results Scraper
 
-This project is a scraper for downloading election results of the Czech Chamber of Deputies from 2017. The script extracts data from a given URL (e.g., okres) and saves it into a CSV file.
+This project is a scraper for downloading election results of the Czech Chamber of Deputies from 2017. The script extracts data from a given electoral district (e.g., okres) URL and saves it into a CSV file.
 
 ## Author
 - **Name**: Dominik Šváb
