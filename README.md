@@ -24,11 +24,6 @@ This project is a scraper for downloading election results of the Czech Chamber 
    ```
 
 3. **Install dependencies**:
-   Generate a `requirements.txt` file using:
-   ```bash
-   pip freeze > requirements.txt
-   ```
-   Then install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
