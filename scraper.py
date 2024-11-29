@@ -93,7 +93,6 @@ def get_location_name(href):
                 return None
             
 def get_location_code(href):
-    from urllib.parse import urlparse, parse_qs
     parsed_url = urlparse(href)
     parameters = parse_qs(parsed_url.query)
     location_code = parameters.get('xobec', [None])[0]
