@@ -11,7 +11,7 @@ This project is a scraper for downloading election results of the Czech Chamber 
 
 ## Installation
 
-1. **Download the repository as ZIP file**:
+1. **Download the repository as ZIP file**
 
 2. **Create a virtual environment** (recommended):
    ```bash
