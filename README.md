@@ -33,7 +33,7 @@ This project is a scraper for downloading election results of the Czech Chamber 
 ## Usage
 
 Run the script with the following arguments:
-1. URL of the election district page to scrape. The page should have an overview of all towns (obec) within the selected district.
+1. URL of the election district page to scrape.
 2. The name of the output CSV file.
 
 ### Example:
@@ -65,5 +65,5 @@ python scraper.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=8&xnu
 ---
 
 ## Notes
-- The input URL must be a valid (okres) page containing data for the 2017 Chamber of Deputies election.
+- The input URL must be a valid page containing data for the 2017 Chamber of Deputies election. The page should have an overview of all towns (obec) within the selected district (okres).
 - The output file must have a `.csv` extension.
