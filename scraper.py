@@ -149,20 +149,7 @@ def import_to_csv_file(data, args):
         writer = csv.writer(file)
         writer.writerows(data)
 
-
 args = get_arguments()
 href_list = make_href_list(args)
 data = scrape_site(href_list)
 import_to_csv_file(data, args)
-
-
-
-
-
-
-
-
-
-
-
-    
