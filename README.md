@@ -35,8 +35,8 @@ This project is a scraper for downloading election results of the Czech Chamber 
 3. Copy the URL of the web page.
 
 4. Run the script with the following arguments:
-   1. URL of the election district page to scrape. 
-   2. The name of the output CSV file.
+   I. URL of the election district page to scrape. 
+   II. The name of the output CSV file.
 
 ### Example:
 ```bash
